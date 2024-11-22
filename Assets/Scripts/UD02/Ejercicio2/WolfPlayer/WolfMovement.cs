@@ -130,14 +130,22 @@ public class WolfMovement : MonoBehaviour
 
         if (_vertical != 0) { //El personaje se esta moviendo
 
-            _animator.SetBool("IsMoving", true);
+            if (_vertical>0) {
+
+                _animator.SetBool("IsMovingForwards", true);
+
+            } else {
+
+                _animator.SetBool("IsMovingBackwards", true);
+
+            }
 
         } else { //El personaje esta parado
 
-            _animator.SetBool("IsMoving", false);
+            _animator.SetBool("IsMovingForwards", false);
+            _animator.SetBool("IsMovingBackwards", false);
 
         }
-
 
     }
 

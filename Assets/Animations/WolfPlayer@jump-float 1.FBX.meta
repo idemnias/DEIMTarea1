@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0eb736874f8ca564da0832132afc8b3f
+guid: 948210ef6974f14408d1bc0baa67a6cc
 labels:
 - Animation
 - Humanoid
@@ -233,7 +233,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 0
       firstFrame: 55
-      lastFrame: 140
+      lastFrame: 59
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

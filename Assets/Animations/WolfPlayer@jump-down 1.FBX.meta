@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0eb736874f8ca564da0832132afc8b3f
+guid: cdb3c9b74fdaa9d4284b5112ab79add2
 labels:
 - Animation
 - Humanoid
@@ -192,7 +192,7 @@ ModelImporter:
     second: M_male1
   - first:
       74: 7400000
-    second: jump-float
+    second: jump-down
   - first:
       95: 9500000
     second: //RootNode
@@ -229,18 +229,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: jump-float
+      name: jump-down
       takeName: Take 001
       internalID: 0
-      firstFrame: 55
-      lastFrame: 140
+      firstFrame: 32
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
@@ -342,7 +342,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 55
+      additiveReferencePoseFrame: 32
     isReadable: 0
   meshes:
     lODScreenPercentages: []
