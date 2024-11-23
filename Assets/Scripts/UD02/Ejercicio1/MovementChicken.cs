@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Movement : MonoBehaviour
+public class MovementChicken : MonoBehaviour
 {
     // Variables privadas
     [SerializeField]

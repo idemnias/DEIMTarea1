@@ -564,6 +564,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3019574407685068799, guid: a1f5b522373322743a91f45c998f3637, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 5862077421946812769, guid: a1f5b522373322743a91f45c998f3637, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.133
@@ -607,6 +611,10 @@ PrefabInstance:
     - target: {fileID: 6490136728237138907, guid: a1f5b522373322743a91f45c998f3637, type: 3}
       propertyPath: m_Name
       value: PlayerWolf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478424612710766209, guid: a1f5b522373322743a91f45c998f3637, type: 3}
+      propertyPath: JumpForce
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -678,8 +686,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 106101653}
   - {fileID: 1018122026}
+  - {fileID: 106101653}
   - {fileID: 491408778}
   - {fileID: 7154082137530797248}
   - {fileID: 1803166290}

@@ -53,6 +53,7 @@ public class WolfMovement : MonoBehaviour
     private void FixedUpdate() {
 
         LaunchRayCast();
+
         if (_canPlayerJump) {
 
             _canPlayerJump = false;

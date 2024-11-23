@@ -27,13 +27,13 @@ public class ThrowFlowers : MonoBehaviour {
             GameObject cloneFlower = Instantiate(Flower, PosRotFlower.position, PosRotFlower.rotation);
 
             //Obtengo el componente de "rigibody" de la flor
-            Rigidbody rbEgg = cloneFlower.GetComponent<Rigidbody>();
+            Rigidbody rbFlower = cloneFlower.GetComponent<Rigidbody>();
 
-            cloneFlower.tag = "AttackFlower"; 
+            cloneFlower.tag = "AttackFlower";
 
             //Se da la fuerza para lanzar las flores en parábola
-            rbEgg.AddForce(Vector3.up * ThrustY);
-            rbEgg.AddForce(transform.forward * ThrustZ );
+            rbFlower.AddForce(Vector3.up * ThrustY);
+            rbFlower.AddForce(transform.forward * ThrustZ );
 
             Destroy(cloneFlower, _timeFlower);
 
