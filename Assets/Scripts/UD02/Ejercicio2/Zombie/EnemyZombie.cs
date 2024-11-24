@@ -5,16 +5,17 @@ using UnityEngine;
 public class EnemyZombie : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider infoAccess) {
+    private void OnCollisionEnter(Collision infoCollision) {
 
-        Debug.Log(infoAccess.gameObject.tag);
+        Debug.Log(infoCollision.gameObject.tag);
 
-        if (infoAccess.CompareTag("AttackFlower")) {
+        if (infoCollision.gameObject.tag == "AttackFlower") {
 
             Destroy(gameObject);
 
         }
 
     }
+
 
 }

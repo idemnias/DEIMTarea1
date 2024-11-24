@@ -45,6 +45,7 @@ public class WolfMovement : MonoBehaviour
         InputPlayer();
         Move();
         Turn();
+
         Animating();
         CanJump();
 

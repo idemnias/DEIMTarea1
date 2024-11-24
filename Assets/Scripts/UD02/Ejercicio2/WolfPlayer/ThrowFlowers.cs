@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class ThrowFlowers : MonoBehaviour {
 
@@ -12,10 +13,19 @@ public class ThrowFlowers : MonoBehaviour {
                  ThrustZ = 300f;
     private float _timeFlower = 3f;
 
+    private Animator _animator;
+
+    private void Awake() {
+
+        _animator = GetComponent<Animator>();
+        
+    }
+
     // Update is called once per frame
     void Update() {
 
         CreateFlower();
+        AnimationAttack();
 
     }
 
@@ -40,4 +50,16 @@ public class ThrowFlowers : MonoBehaviour {
         }
 
     }
+
+    private void AnimationAttack() {
+
+        if (Input.GetMouseButtonDown(0)) {
+
+            //Ejecución de la animación
+            _animator.SetTrigger("Attack");
+
+        }
+
+    }
+
 }

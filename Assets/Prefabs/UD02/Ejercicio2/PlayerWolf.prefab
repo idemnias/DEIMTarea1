@@ -779,7 +779,6 @@ GameObject:
   - component: {fileID: 658456381288551611}
   - component: {fileID: 3019574407685068799}
   - component: {fileID: 8478424612710766209}
-  - component: {fileID: 3137213792716580851}
   - component: {fileID: 2095997541999877717}
   m_Layer: 0
   m_Name: PlayerWolf
@@ -894,18 +893,6 @@ MonoBehaviour:
     m_Bits: 128
   RayLenght: 0.15
   JumpForce: 200
---- !u!114 &3137213792716580851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6490136728237138907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 132b99d5db931dc47baa97a17a3ab1cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2095997541999877717
 MonoBehaviour:
   m_ObjectHideFlags: 0
