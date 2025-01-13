@@ -80,10 +80,11 @@ public class WolfMovement : MonoBehaviour
         } else {
 
             _isGrounded=false;
+            Debug.Log("No estoy tocando el suelo");
 
         }
 
-        Debug.DrawRay(_ray.origin, _ray.direction * RayLenght, Color.red);
+        Debug.DrawRay(transform.position, Vector3.down * RayLenght, Color.red);
 
     }
 
@@ -94,6 +95,8 @@ public class WolfMovement : MonoBehaviour
 
             _canPlayerJump = true;
 
+        } else {
+            _canPlayerJump = false;
         }
 
     }
